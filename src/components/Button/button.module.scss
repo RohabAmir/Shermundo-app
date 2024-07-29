@@ -1,0 +1,19 @@
+.button {
+    background-color: #0057B7;
+    color: white;
+    border: none;
+    border-radius: 16px; //default border radius
+    font-size: 24px;
+    font-family: Mulish;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #003d99;
+    }
+  
+    &:focus {
+      outline: none;
+    }
+  }
+  

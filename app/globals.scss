@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+//Global scss
+body {
+    font-family: "Mulish", sans-serif !important;
+    background-color: #ffff;
+    color: #333;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    max-width: 995px;
+    width: 100%;
+    color:  #202332;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p{
+    max-width: 734px;
+    width: 100%;
+    color: #4F4F4F;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal; 
+
+}
+
+

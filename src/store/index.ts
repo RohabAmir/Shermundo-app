@@ -10,7 +10,7 @@ export const store = configureStore({
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(
-    ),
+  ),
 });
 
 export type AppDispatch = typeof store.dispatch;

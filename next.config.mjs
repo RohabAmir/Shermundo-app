@@ -1,11 +1,25 @@
-// next.config.mjs
-import path from 'path';
+// import path from 'path';
 
-const nextConfig = {
-  sassOptions: {
-    // includePaths: [path.join(__dirname, 'styles')],
-    prependData: `@import "global";`,
-  },
-};
+// /**
+//  * @type {import('next').NextConfig}
+//  **/
+// const nextConfig = {
+//   webpack: (config) => {
+//     config.module.rules.push({
+//       test: /\.svg$/,
+//       use: ['@svgr/webpack'],
+//     });
 
-export default nextConfig;
+//     return config;
+//   },
+//   sassOptions: {
+//     includePaths: [path.join(process.cwd(), 'app')],
+//     prependData: `@import "global";`,
+//   },
+// };
+
+// export default nextConfig;
+
+
+
+
